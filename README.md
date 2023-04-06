@@ -2,7 +2,7 @@
 
 *description*
 I tried to replicate Apple's website.
-[https://kylehuang.me/lab1/index.html](https://kylehuang.me/lab1/index.html)
+[https://kylehuang.me/Lab1/index.html](https://kylehuang.me/Lab1/index.html)
 
 ## What Worked Well
 Flex is really powerful for repsonsive web and layout
