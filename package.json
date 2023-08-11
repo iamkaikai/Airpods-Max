@@ -1,0 +1,26 @@
+{
+  "name": "airpods-max",
+  "version": "1.0.0",
+  "description": "A replication of Apple's AirPods Max website. Made in pure HTML/CSS. [Live demo](https://kylehuang.me/Lab1/index.html)",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamkaikai/Airpods-Max.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamkaikai/Airpods-Max/issues"
+  },
+  "homepage": "https://github.com/iamkaikai/Airpods-Max#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
