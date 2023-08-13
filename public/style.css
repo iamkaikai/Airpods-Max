@@ -107,14 +107,24 @@ nav ul{
 #top-sub-nav li:not(:first-child) {
 	padding: 0 14px;
 }
-
+#top-sub-nav{
+	position: fixed;
+    left: 50%;
+    transform: translate(-50%);
+	z-index: 999;
+	background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(20px); 
+    width: 100vw;
+	padding-bottom: 60px;
+	transition: margin-top 0.1s ease-out 0s;
+}
 
 #top-sub-nav ul{
-       justify-content: space-between;
+    justify-content: space-between;
     align-items: center;
     margin: auto;
     padding: 30px 8px 30px 0px;
-}
+	}
 
 #top-sub-nav li:first-child{
 	margin-right: auto;
@@ -506,7 +516,7 @@ button {
 }
 
 #audio-section h1{
-	margin-top: 1rem;
+	margin: 1rem 0 2rem;
 }
 
 #audio-section h5:nth-child(3){
@@ -518,8 +528,9 @@ button {
     padding: 2rem 0;
 }
 
-#X-ray .left-container{
-
+#X-ray h1{
+	font-size: 10rem;
+	line-height: 10rem;
 }
 
 #X-ray .flex{
@@ -533,6 +544,7 @@ button {
 #X-ray .right-container{
 	height: 80vh;
 	overflow: hidden;
+	margin-top: 10rem;
 }
 
 #X-ray .highlight{
@@ -544,7 +556,9 @@ button {
 #X-ray .right-container p{
     color: rgb(110, 110, 115);
     letter-spacing: 0.01rem;
-    font-weight: 400;
+    font-weight: 600;
+	font-size: 24px;
+	line-height: 2rem;
     padding: 20rem 0 5rem 0;
     animation: slider3 15s ease-in-out infinite;
     transform: translateY(0%);
@@ -581,19 +595,19 @@ button {
 	}
 	49%{
 		opacity: 0;
-		transform: translateY(-200%);
+		transform: translateY(-205%);
 	}
 	50%{
 		opacity: 1;
-		transform: translateY(-200%);
+		transform: translateY(-205%);
 	}
 	70%{
 		opacity: 1;
-		transform: translateY(-200%);
+		transform: translateY(-205%);
 	}
 	73%{
 		opacity: 0;
-		transform: translateY(-210%);
+		transform: translateY(-205%);
 	}
 	74%{
 		opacity: 0;
@@ -607,11 +621,12 @@ button {
 
 
 #computational-audio h2{
-	font-size: 5rem;
+	font-size: 7rem;
+	line-height: 7rem;
 }
 
 .description{
-	width: 1024px;
+	width: 1124px;
 	margin: auto;
 }
 
@@ -620,7 +635,10 @@ button {
 }
 .description h6{
     padding: 3rem 0 8rem 0;
-    width: 40rem;
+    width: 65rem;
+	font-weight: 500;
+	font-size: 1.8rem;
+	line-height: 2.1rem;
 }
 
 #computational-audio .highlight{
@@ -653,6 +671,11 @@ button {
 	margin-bottom: 1rem;
 }
 
+.flex .left-container h6{
+	width: 80%;
+    margin: 16px auto;
+}
+
 .flex .right-container h6:last-child{
 	margin-top: 1.8rem;
 }
@@ -670,6 +693,8 @@ button {
 	left: 50%;
     transform: translateX(-50%);
     position: absolute;
+	bottom: 0;
+    top: auto;
 }
 
 #tracking-background {
@@ -716,6 +741,9 @@ button {
     padding: 4rem 0;
 }
 
+#ar #left-container{
+	margin-right: 60px;
+}
 #others-section .row {
     background: #f2f2f2;
     margin: 1.5rem 0;
@@ -728,11 +756,14 @@ button {
 #engraving {
 	justify-content: space-between;
 	align-items: center;
+	display: grid !important;
+    grid-template-columns: 29% 1fr 659px;
 }
 
 #engraving #right-container {
 	margin-right: -156px;
     height: 473px;
+	margin-left: 0;
 }
 
 .row-p {
