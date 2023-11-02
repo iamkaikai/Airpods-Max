@@ -1058,6 +1058,9 @@ footer ol li{
 		line-height: 1.8rem;
 		width: 50vw;
 	}
+	#hero-section h3{
+		width: 90vw;
+	}
 	#crown h6{
 		width: 90vw;
 	}
