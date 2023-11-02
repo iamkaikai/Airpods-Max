@@ -159,9 +159,6 @@ button {
     margin: auto;
 }
 
-#top-sub-nav.scroll::after {
-	background-color: transparent;
-}
 
 #hero-earphone {
     position: relative;
