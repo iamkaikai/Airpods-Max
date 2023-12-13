@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
     window.addEventListener('scroll', () => {
         
         let y = window.scrollY;
-        console.log(y)
+        
         if (y <= 16){
             nav.style.marginTop = '0px';
             nav.classList.remove('scroll');

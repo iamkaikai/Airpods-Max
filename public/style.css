@@ -276,6 +276,7 @@ button {
 	color: rgb(134, 134, 139);
 	padding: 5rem 0 0 0;
 	font-weight: 600;
+	padding-top: 16vh;
 }
 
 .highlight{
@@ -389,8 +390,14 @@ button {
 }
 #colors-section .flex{
 	justify-content: space-between;
-	margin-bottom: 60px;
+	margin-bottom: 0;
+	padding: 5rem 0;
 }
+
+#colors-section .flex:first-child{
+	padding: 15rem 0 0 0;
+}
+
 #colors-section .flex .color-tabs{
     align-self: flex-end;
 }
@@ -926,13 +933,19 @@ footer ol li{
 		height: 80vh;
 	}
 	.three-mid-container img{
-		height: 75%;
+		height: 65%;
 	}
 	.three-right-container{
 		margin-top: 19rem;
 	}
 	.three-left-container h6:nth-of-type(2){
 		padding: 24rem 0 0 0 !important;
+	}
+	#design-section > h6{
+		padding-top: 0;
+	}
+	#X-ray{
+		padding-top: 15rem;
 	}
 	#X-ray .right-container p{
 		color: rgb(110, 110, 115);
@@ -946,9 +959,12 @@ footer ol li{
 		width: 36rem;
 	}
 	#X-ray .right-container{
-		height: 70vh;
+		height: 65vh;
 		overflow-y: clip;
 		margin-top: 10rem;
+	}
+	#X-ray .flex{
+		padding-bottom: 0;
 	}
 	#others-section {
 		width: 60vw;
@@ -1007,6 +1023,252 @@ footer ol li{
 	
 }
 
+@media(max-width: 1440px){
+	#hero-earphone {
+		height: 77vh;
+	}
+	#hero-section h3{
+		height: 24vh;
+	}
+	#X-ray .left-container img{
+		height: auto;
+	}
+	.three-mid-container img {
+		height: 70%;
+	}
+	#video-section{
+		height: 56vh;
+	}
+	#features{
+		margin: -79vh auto;
+		height: 140%;
+	}
+	#anatomy{
+		height: 77vh;
+	}
+	#video-section li{
+		font-size: 4rem;
+	}
+	.three-left-container h6:nth-of-type(2) {
+		padding: 26rem 0 0 0 !important;
+	}
+	.three-left-container{
+		margin-top: 0;
+	}
+	#design-section > h6{
+		padding-top: 6rem;
+	}
+	#colors-section .flex:first-child{
+		padding: 4rem 0 0 0;
+	}
+	#audio-section h5:nth-child(3) {
+		font-size: 1.85rem;
+	}
+	#right-container img:nth-child(2){
+		width: 569px;
+		margin-top: 65px;
+	}
+	#engraving #right-container {
+		overflow: hidden;
+    	margin-right: 0;
+		border-top-right-radius: 1.5rem;
+		border-bottom-right-radius: 1.5rem;
+		width: 40vw;
+	}
+}
+
+@media(max-width: 1024px){
+	h1, #X-ray h1{
+		font-size: 5rem;
+	    line-height: 5rem;
+	    font-weight: 600;
+	    letter-spacing: -0.374px;
+	}
+	h2, #computational-audio h2{
+		font-size: 4rem;
+		line-height: 4.5rem;
+		font-weight: 600;
+	}
+	H5, #audio-section h5:nth-child(3){
+		font-size: 1.5rem;
+		font-weight: normal;
+		line-height: 2rem;
+		font-weight: 600;
+	}
+	H6, .description h6{
+		font-size: 1.2rem;
+		font-weight: normal;
+		line-height: 1.55rem;
+		width: 27vw;
+	}
+	#video-section {
+		height: 44vh;
+	}
+	#video-section li {
+		margin-top: 5vh;
+		width: 90vw;
+		margin: auto;
+	}
+	#design-section h1 {
+		width: 90vw;
+	}
+	#design-section h5:nth-child(3) {
+		font-size: 1.85rem;
+		line-height: 2.2rem;
+		margin: auto;
+		margin-left: 0;
+		width: 100%;
+		padding-bottom: 11vh;
+		padding-top: 2vh;
+	}
+	#design-section h5:nth-child(3) > br{
+		display: none;
+	}
+	#design-section h6{
+		padding-top: 8rem;
+	}
+	.three-left-container h6:nth-of-type(2) {
+		padding: 16rem 0 0 0 !important;
+	}
+	.three-right-container {
+		margin-top: 13rem;
+	}
+	#X-ray .right-container {
+		margin-top: 0;
+	}
+	#details-section h6{
+		padding: 0 0 8rem 0;
+	}
+	#crown{
+		margin-top: -17vh;
+	}
+	.earphone-key-shot img, .active-tab-image > a > img, .tab-image > a > img {
+		height: 38vh;
+	}
+	#colors-section .flex:nth-child(2){
+		padding-bottom: 0;
+		height: 48vh;
+	}
+	#colors-section{
+		padding: 6rem 0;
+	}
+	#X-ray .left-container img{
+		height: 60vh;
+	}
+	#computational-audio .description {
+		width: 100%;
+		padding: 0 3rem;
+	}
+	#computational-audio .flex h6{
+		width: 100%;
+		font-size: medium;
+		line-height: 1.4rem;
+	}
+	.description h6{
+		padding-top: 2rem;
+	    padding-bottom: 4rem;
+		font-size: large;
+		font-weight: normal;
+		line-height: 1.55rem;
+		width: 61vw;
+	}
+	#head-tracking h6{
+		margin: auto;
+		left: auto;
+		bottom: 14%;
+		text-align: center;
+		width: 73vw;
+	}
+	#head-tracking img{
+		left: 47%;
+		bottom: -4vh;
+	}
+	#head-tracking h6 > br{
+		display: none;
+	}
+	.highlight::after {
+		content: "\A";
+		white-space: pre;
+	}
+	#others-section #engraving #left-container{
+		margin-left: 9rem;
+	}
+	.row-p br{
+		display: none;
+	}
+	#music #right-container{
+		width: 30vw;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	#music #right-container br{
+		display: none;
+	}
+	#apple-music-icon{
+		width: 5.2rem;
+	}
+	.cta {
+		font-size: medium;
+	    font-weight: 500;
+	}
+	.cta::after{
+		margin: 0.13rem 6px;
+	}
+	#crown > .crown-detail{
+		width: 45vw;
+	}
+}
+@media (max-width:1024px){
+	h3{
+		font-size: x-large;
+	}
+	.row_title{
+		font-size: xx-large;
+		line-height: 2.6rem;
+	}
+	h5{
+		font-size: large;
+	}
+	h6{
+		font-size: large;
+	}
+	.row-p{
+		font-size: medium;
+		width: 27vw;
+	}
+	#hero-section h3{
+		height: 30vh;
+		margin-top: 10vh;
+		line-height: 2rem;	
+	}
+	#colors-section .flex:nth-child(2) {
+		height: 72vh;
+		padding-top: 3rem;
+	}
+	.earphone-key-shot img, .active-tab-image > a > img, .tab-image > a > img {
+		height: 68vh;
+	}
+	H5, #audio-section h5:nth-child(3) {
+		font-size: 1.1rem;
+		line-height: 1.8rem;
+		font-weight: 400;
+	}
+	#design-section h5:nth-child(3){
+		font-size: x-large;
+	    margin-top: 1rem;
+	}
+	#X-ray .left-container img {
+		height: 90vh;
+	}
+	#X-ray .right-container p {
+		width: 28rem;
+		font-size: large;
+		font-weight: 400;
+		line-height: 1.4rem;
+		padding-top: 15rem;
+	}
+}
+
 @media (max-width: 768px) {
 	#top-sub-nav::after{
 		width: 100vw;
@@ -1027,31 +1289,13 @@ footer ol li{
 	#hero-section h1{
 		margin-top: 14rem;
 		height: 10rem;
+		margin-bottom: 20rem;
 	}
 	#features ul{
 		width: 90vw;
 	}
-	h1, #X-ray h1{
-		font-size: 5.75rem;
-	    line-height: 5.75rem;
-	    font-weight: 600;
-	    letter-spacing: -0.374px;
-	}
-	h2, #computational-audio h2{
-		font-size: 4rem;
-		line-height: 4.5rem;
-		font-weight: 600;
-	}
-	H5{
-		font-size: 1.3rem;
-		font-weight: normal;
-		line-height: 1.9rem;
-		font-weight: 600;
-	}
-	H6, .description h6{
-		font-size: 1.2rem;
-		font-weight: normal;
-		line-height: 1.4rem;
+	#top-sub-nav{
+		display: none;
 	}
 	#audio-section h5:nth-child(3) {
 		font-size: 1.1rem;
@@ -1079,11 +1323,15 @@ footer ol li{
     	align-self: flex-end;
     	margin-top: 0;
 	}
+	#design-section h5:nth-child(3) {
+		margin: auto;
+		margin-left: 0;
+	}
 	.three-mid-container img{
-		height: 70%;
+		height: 64%;
 	}
 	.three-right-container{
-		margin-top: 16rem;
+		margin-top: 12rem;
 	}
 	#design-section h1{
 		width: 90vw;
@@ -1098,7 +1346,7 @@ footer ol li{
 		padding: 40rem 0 0 0 !important;
 	}
 	#X-ray .left-container img {
-		height: 70vh;
+		height: 45vh;
 	}
 	#X-ray .right-container {
 		height: 50vh;
@@ -1128,6 +1376,9 @@ footer ol li{
 		z-index: -1;
 		width: 100vw;
 	}
+	#features{
+		margin: -123vh auto;
+	}
 	#others-section{
 		width: 100vw;
 	}
@@ -1149,6 +1400,12 @@ footer ol li{
 	.site-map{
 		flex-direction: column;
 		width: 90vw;
+	}
+	.row-p{
+		width: 33vw;
+	}
+	#hero-earphone{
+		height: 54vh;
 	}
 }
 
