@@ -1037,10 +1037,10 @@ footer ol li{
 		height: 70%;
 	}
 	#video-section{
-		height: 56vh;
+		height: 75vh;
 	}
 	#features{
-		margin: -79vh auto;
+		margin: -98vh auto;
 		height: 140%;
 	}
 	#anatomy{
@@ -1102,7 +1102,7 @@ footer ol li{
 		width: 27vw;
 	}
 	#video-section {
-		height: 44vh;
+		height: 75vh;
 	}
 	#video-section li {
 		margin-top: 5vh;
@@ -1217,6 +1217,9 @@ footer ol li{
 	#crown > .crown-detail{
 		width: 45vw;
 	}
+	#features {
+		margin-top: -98vh;
+	}
 }
 @media (max-width:1024px){
 	h3{
@@ -1250,12 +1253,13 @@ footer ol li{
 	}
 	H5, #audio-section h5:nth-child(3) {
 		font-size: 1.1rem;
-		line-height: 1.8rem;
+		line-height: 1.6rem;
 		font-weight: 400;
 	}
 	#design-section h5:nth-child(3){
 		font-size: x-large;
 	    margin-top: 1rem;
+		line-height: 1.8rem;
 	}
 	#X-ray .left-container img {
 		height: 90vh;
@@ -1303,7 +1307,11 @@ footer ol li{
 		width: 50vw;
 	}
 	#hero-section h3{
-		width: 90vw;
+		width: 83vw;
+		height: 24vh;
+	}
+	#hero-section br{
+		display: none;
 	}
 	#crown h6{
 		width: 90vw;
@@ -1326,12 +1334,14 @@ footer ol li{
 	#design-section h5:nth-child(3) {
 		margin: auto;
 		margin-left: 0;
+		margin-top: 1rem;
+	    font-weight: 400;
 	}
 	.three-mid-container img{
 		height: 64%;
 	}
 	.three-right-container{
-		margin-top: 12rem;
+		margin-top: 9rem;
 	}
 	#design-section h1{
 		width: 90vw;
@@ -1343,7 +1353,7 @@ footer ol li{
 		height: 76vh;
 	}
 	.three-left-container h6:nth-of-type(2){
-		padding: 40rem 0 0 0 !important;
+		padding: 24rem 0 0 0 !important;
 	}
 	#X-ray .left-container img {
 		height: 45vh;
@@ -1377,7 +1387,7 @@ footer ol li{
 		width: 100vw;
 	}
 	#features{
-		margin: -123vh auto;
+		margin: -114vh auto;
 	}
 	#others-section{
 		width: 100vw;
@@ -1406,6 +1416,46 @@ footer ol li{
 	}
 	#hero-earphone{
 		height: 54vh;
+	}
+	.three-left-container{
+		margin-top: -2rem;
+	}
+	#design-section > h6{
+		width: 72vw;
+	}
+	#design-section > h6 br{
+		display: none;
+	}
+	#design-section{
+		padding-bottom: 14vh;
+	}
+	#details-section h6{
+		font-size: large;
+		line-height: 1.4rem;
+	}
+	#details-section h6 br{ 
+		display: none;
+	}
+	.highlight::after {
+		content: none;
+	}
+	#crown{
+		margin-top: 0;
+	}
+	#crown > .crown-detail {
+		width: 72vw;
+	}
+	#colors-section{
+		padding-top: 0;
+	}
+	#colors-section .flex:nth-child(2) {
+		padding-top: 10rem;
+	}
+	.earphone-key-shot img, .active-tab-image > a > img, .tab-image > a > img {
+		height: 39vh;
+	}
+	#colors-section .flex:nth-child(2) {
+		height: 56vh;
 	}
 }
 
